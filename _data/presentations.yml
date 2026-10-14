@@ -7,6 +7,10 @@
   slides_notes: "NLA_Review to Remediation_speaker_notes.pdf"
   # handout: "filename.pdf"
   abstract: "This presentation describes the results of UNL Libraries’ project to implement reparative metadata practices by replacing or supplementing pejorative or outdated subject headings in our bibliographic metadata. Using examples drawn from local subject heading review and remediation workflows, it explores how librarians at UNL evaluate replacement and supplemental subject headings, determine when to replace, supplement, or retain existing headings, and document the rationale for those decisions. The presentation also addresses practical implementation methods in Ex Libris Alma, such as local authority records, normalization rules, and tools for altering how subject headings are displayed, as well as the importance of community consultation, transparency, and internal documentation in creating sustainable metadata remediation. It provides strategies for navigating the technical challenges of handling subject headings that have variant forms and for balancing local language decisions within shared bibliographic environments with numerous stakeholders. The presentation offers a practical model for institutions beginning similar reparative metadata initiatives."
+  links:
+      - label: "Alma normalization rules (GitHub repository)"
+        url: "https://github.com/unl-libraries-acme/alma-normalization-rules"
 
 # Copy the block above for each new presentation.
 # Leave out any line you don't need, for example a talk with no handout.
+# Under links, each "- label:" starts a new link; its "url:" line lines up under "label".
