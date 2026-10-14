@@ -21,5 +21,13 @@ Slides and handouts from presentations by UNL Libraries ACME department staff. U
 {% if t.handout %}- [Handout (PDF)]({{ t.folder | append: "/" | append: t.handout | relative_url }}){% endif %}
 - [All files on GitHub](https://github.com/unl-libraries-acme/presentations/tree/main/{{ t.folder }})
 
+{% if t.links %}
+**Related resources**
+
+{% for link in t.links %}
+{% if link.url contains "://" %}- [{{ link.label }}]({{ link.url }}){% else %}- [{{ link.label }}]({{ link.url | relative_url }}){% endif %}
+{% endfor %}
+{% endif %}
+
 {% endfor %}
 {% endfor %}
