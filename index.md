@@ -3,7 +3,7 @@ layout: default
 title: Presentations
 ---
 
-Slides and handouts from presentations by UNL Libraries ACME department staff. Unless otherwise noted, content is licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Slides and handouts from presentations by UNL Libraries Acquisitions, Cataloging, Metadata and E-Resources (ACME) faculty and staff. Unless otherwise noted, content is licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 {% assign talks = site.data.presentations | sort: "date" | reverse %}
 {% assign years = talks | group_by_exp: "t", "t.date | date: '%Y'" %}
