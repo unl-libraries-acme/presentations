@@ -14,7 +14,7 @@ Slides and handouts from presentations by UNL Libraries Acquisitions, Cataloging
 
 {{ t.presenters }} · {{ t.event }} · {{ t.date | date: "%B %-d, %Y" }}
 
-{% if t.abstract %}{{ t.abstract }}{% endif %}
+{% if t.abstract %}> {{ t.abstract }}{% endif %}
 
 {% if t.slides %}- [Slides (PDF)]({{ t.folder | append: "/" | append: t.slides | relative_url }}){% endif %}
 {% if t.slides_notes %}- [Slides with speaker notes (PDF)]({{ t.folder | append: "/" | append: t.slides_notes | relative_url }}){% endif %}
