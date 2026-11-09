@@ -16,6 +16,7 @@
   event: "Upper Midwest User Group Conference"
   folder: "2026-UMWUG"
   slides: "UMWUG_Review and Remediation.pdf"
+  #slides_notes:
   # handout: "filename.pdf"
   abstract: "This presentation describes the results of UNL Libraries’ project to implement reparative metadata practices by replacing or supplementing pejorative or outdated subject headings in our bibliographic metadata. Using examples drawn from local subject heading review and remediation workflows, it explores how librarians at UNL evaluate replacement and supplemental subject headings, determine when to replace, supplement, or retain existing headings, and document the rationale for those decisions. The presentation also addresses practical implementation methods in Ex Libris Alma and Primo."
   links:
