@@ -10,6 +10,9 @@
   links:
       - label: "Alma normalization rules (GitHub repository)"
         url: "https://github.com/unl-libraries-acme/alma-normalization-rules"
+# Copy the block above for each new presentation.
+# Leave out any line you don't need, for example a talk with no handout.
+# Under links, each "- label:" starts a new link; its "url:" line lines up under "label".
 - date: 2026-11-10
   title: "Review and Remediation: Building a Sustainable Reparative Metadata Workflow"
   presenters: "Broghan White"
@@ -22,6 +25,4 @@
   links:
       - label: "Alma normalization rules (GitHub repository)"
         url: "https://github.com/unl-libraries-acme/alma-normalization-rules"
-# Copy the block above for each new presentation.
-# Leave out any line you don't need, for example a talk with no handout.
-# Under links, each "- label:" starts a new link; its "url:" line lines up under "label".
+
